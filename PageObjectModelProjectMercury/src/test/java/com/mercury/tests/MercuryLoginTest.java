@@ -15,7 +15,8 @@ public class MercuryLoginTest extends BaseClass{
 	@Test
 	public void loginApp() 
 	{
-		//driver = BrowserFactory.StarApplication(driver, "Chrome", "http://newtours.demoaut.com/");
+		//driver = BrowserFactory.StarApplication(driver, "Chrome", "http://newtours.demoaut.com/"); 
+		
 		//System.out.println(driver.getTitle());
 		
 		MercuryLoginPage loginPage=PageFactory.initElements(driver, MercuryLoginPage.class);
